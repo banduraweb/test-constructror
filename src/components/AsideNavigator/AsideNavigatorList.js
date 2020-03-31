@@ -1,9 +1,10 @@
 import React from 'react';
-import {useSelector} from 'react-redux'
+import {useSelector, useDispatch} from 'react-redux'
 import MenuItemContent from "./MenuItemContent";
 
 const AsideNavigatorList = () => {
     const activeAsideMenuItems = useSelector(state => state.asideMenuItems);
+    const dispatch = useDispatch();
 
     return (
 
@@ -11,7 +12,11 @@ const AsideNavigatorList = () => {
 
             {activeAsideMenuItems.map(item => (
 
-                <MenuItemContent key={item.title} data={item}/>
+                <MenuItemContent
+                  key={item.title}
+                  data={item}
+                  dispatch={dispatch}
+                />
 
             ))}
 

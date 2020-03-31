@@ -2,10 +2,6 @@ body, html {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-image: url('../src/img/tile.png');
-  background-repeat: repeat;
-  background-size: 30px 30px;
-  background-color: #FBFBFB;
 }
 #navigation {
   height: 71px;
@@ -627,6 +623,24 @@ body, html {
 .selectedblock {
   border: 2px solid #217CE8;
   box-shadow: 0px 4px 30px rgba(22, 33, 74, 0.08);
+}
+
+
+.work-space {
+  border: 1px solid red;
+  height: 100vh;
+  background-image: url('../src/img/tile.png');
+  background-repeat: repeat;
+  background-size: 30px 30px;
+  background-color: #FBFBFB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragged-block {
+  background-color: #F1F4FC;
 }
 
 @media only screen and (max-width: 832px) {

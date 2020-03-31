@@ -120,9 +120,22 @@ const asideMenuActiveBtnReducer = (state = TRIGGERS, action) => {
 };
 
 
+const workSpaceReducer = (state = [], action) => {
+    switch (action.type) {
+        case actionsTypes.DRAG_ITEM_TO_WORK_SPACE :
+            const {block} = action;
+            return [...state, block];
+        default:
+            return state;
+    }
+
+};
+
+
 
 export const rootReducer = combineReducers({
     asideMenuItems: asideMenuItemsReducer,
     activeAsideBtn: asideMenuActiveBtnReducer,
-    rememberedQuery: rememberQueryReducer
+    rememberedQuery: rememberQueryReducer,
+    workSpaceBlocks: workSpaceReducer
 });

@@ -1,18 +1,20 @@
 import React from 'react';
 import Header from './components/Header'
+import { DndProvider } from 'react-dnd'
+import Backend from 'react-dnd-html5-backend'
 import './App.css';
 import AsideNavigator from "./components/AsideNavigator/AsideNavigator";
+import WorkSpace from './components/WorkSpace/WorkSpace';
 
 
 function App() {
     return (
         <div>
-
+            <DndProvider backend={Backend}>
            <Header/>
 
             <AsideNavigator/>
-
-
+            <WorkSpace/>
             <div id="propwrap">
                 <div id="properties">
                     <div id="close">
@@ -34,7 +36,7 @@ function App() {
                 <div id="divisionthing"></div>
                 <div id="removeblock">Delete blocks</div>
             </div>
-
+            </DndProvider>
         </div>
     );
 }

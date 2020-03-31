@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/test-constructor/static/css/main.74ddbdf0.chunk.css",
-    "main.js": "/test-constructor/static/js/main.deac4ccc.chunk.js",
-    "main.js.map": "/test-constructor/static/js/main.deac4ccc.chunk.js.map",
-    "runtime-main.js": "/test-constructor/static/js/runtime-main.dbadf840.js",
-    "runtime-main.js.map": "/test-constructor/static/js/runtime-main.dbadf840.js.map",
-    "static/js/2.37ee8cfc.chunk.js": "/test-constructor/static/js/2.37ee8cfc.chunk.js",
-    "static/js/2.37ee8cfc.chunk.js.map": "/test-constructor/static/js/2.37ee8cfc.chunk.js.map",
-    "index.html": "/test-constructor/index.html",
-    "precache-manifest.1287dfe6a20513e86ad5f23d00bb57f0.js": "/test-constructor/precache-manifest.1287dfe6a20513e86ad5f23d00bb57f0.js",
-    "service-worker.js": "/test-constructor/service-worker.js",
-    "static/css/main.74ddbdf0.chunk.css.map": "/test-constructor/static/css/main.74ddbdf0.chunk.css.map",
-    "static/js/2.37ee8cfc.chunk.js.LICENSE.txt": "/test-constructor/static/js/2.37ee8cfc.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/test-constructor/static/media/tile.259743a6.png"
+    "main.css": "/test-constructror/static/css/main.d9a5e416.chunk.css",
+    "main.js": "/test-constructror/static/js/main.c74588bd.chunk.js",
+    "main.js.map": "/test-constructror/static/js/main.c74588bd.chunk.js.map",
+    "runtime-main.js": "/test-constructror/static/js/runtime-main.22c267ee.js",
+    "runtime-main.js.map": "/test-constructror/static/js/runtime-main.22c267ee.js.map",
+    "static/js/2.37ee8cfc.chunk.js": "/test-constructror/static/js/2.37ee8cfc.chunk.js",
+    "static/js/2.37ee8cfc.chunk.js.map": "/test-constructror/static/js/2.37ee8cfc.chunk.js.map",
+    "index.html": "/test-constructror/index.html",
+    "precache-manifest.36bd506d151f325b3708f170fe3d75fe.js": "/test-constructror/precache-manifest.36bd506d151f325b3708f170fe3d75fe.js",
+    "service-worker.js": "/test-constructror/service-worker.js",
+    "static/css/main.d9a5e416.chunk.css.map": "/test-constructror/static/css/main.d9a5e416.chunk.css.map",
+    "static/js/2.37ee8cfc.chunk.js.LICENSE.txt": "/test-constructror/static/js/2.37ee8cfc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/test-constructror/static/media/tile.259743a6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbadf840.js",
+    "static/js/runtime-main.22c267ee.js",
     "static/js/2.37ee8cfc.chunk.js",
-    "static/css/main.74ddbdf0.chunk.css",
-    "static/js/main.deac4ccc.chunk.js"
+    "static/css/main.d9a5e416.chunk.css",
+    "static/js/main.c74588bd.chunk.js"
   ]
 }

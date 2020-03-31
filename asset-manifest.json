@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-constructor/static/css/main.74ddbdf0.chunk.css",
+    "main.js": "/test-constructor/static/js/main.deac4ccc.chunk.js",
+    "main.js.map": "/test-constructor/static/js/main.deac4ccc.chunk.js.map",
+    "runtime-main.js": "/test-constructor/static/js/runtime-main.dbadf840.js",
+    "runtime-main.js.map": "/test-constructor/static/js/runtime-main.dbadf840.js.map",
+    "static/js/2.37ee8cfc.chunk.js": "/test-constructor/static/js/2.37ee8cfc.chunk.js",
+    "static/js/2.37ee8cfc.chunk.js.map": "/test-constructor/static/js/2.37ee8cfc.chunk.js.map",
+    "index.html": "/test-constructor/index.html",
+    "precache-manifest.1287dfe6a20513e86ad5f23d00bb57f0.js": "/test-constructor/precache-manifest.1287dfe6a20513e86ad5f23d00bb57f0.js",
+    "service-worker.js": "/test-constructor/service-worker.js",
+    "static/css/main.74ddbdf0.chunk.css.map": "/test-constructor/static/css/main.74ddbdf0.chunk.css.map",
+    "static/js/2.37ee8cfc.chunk.js.LICENSE.txt": "/test-constructor/static/js/2.37ee8cfc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/test-constructor/static/media/tile.259743a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbadf840.js",
+    "static/js/2.37ee8cfc.chunk.js",
+    "static/css/main.74ddbdf0.chunk.css",
+    "static/js/main.deac4ccc.chunk.js"
+  ]
+}
